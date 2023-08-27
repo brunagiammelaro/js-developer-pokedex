@@ -1,5 +1,3 @@
-# Trilha JS Developer - Pokedex
-
    # Meu Projeto - Primeiras Páginas Interativas com JavaScript
 
 Este projeto faz parte do desafio do capítulo "Primeiras Páginas Interativas com JavaScript" do curso de Fullstack Java + Angular da Digital Innovation One (DIO). O objetivo do desafio era continuar a página criada em aula usando recursos da API.
