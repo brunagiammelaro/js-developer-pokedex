@@ -86,6 +86,11 @@
     border-radius: 1rem;
 }
 
+.pokemon:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 1px 0 rgb(138, 135, 135);
+}
+
 .pokemon .number {
     color: #000;
     opacity: .3;
@@ -144,6 +149,121 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+}
+
+
+#popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #222224;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#closeBtn{
+    padding: .55rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#closeBtn:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 2px 1px 0 rgb(138, 135, 135);
+}
+
+#detailPokemon{
+    border-radius: 8px;
+}
+
+#img-pokemon{
+    margin-left:80px;
+    width: 150px; 
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tabs button {
+    background-color: #918585;
+    color: #fff;
+    border-radius: 5rem;
+}
+
+#data{
+    background-color: white;
+    height: 19rem;
+    width: 22rem;
+    border-radius:30px 30px 8px 8px;
+    box-shadow: 0 -15px 24px -8px #5c5b59;
+}
+
+#data h4{
+    text-align: center;
+}
+
+#stats{
+    display: flex;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+.stat-bar{
+    display: grid;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 0 0 20px;
+}
+
+.stat-bar p {
+    border-radius: 5px;
+    padding: 0.6rem;
+    box-shadow: 2px 1px 5px 1px #5c5b59;
+    font-size: 15px;
+}
+
+#hability{
+    display: flex;
+    width: 100%;
+    font-size: 0.8rem;
+    margin: 0 0 0 80px;
+}
+
+.stat-desc{
+    color: rgb(24, 26, 24);
+    font-weight: bold;
+    font-size: large;
+    text-align: right;
+    border-right: 1px solid black;
+    padding-right: 0.6rem;
+    
+}
+
+.stat-desc p{
+      border-radius: 5px;
+      
+}
+
+.bar-inner{
+    border-radius: 4px;
+    padding-left: 0.6rem;
+    font-size: large;
+}
+
+.bar-inner p{
+    padding-left: 1rem;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 380px) {
